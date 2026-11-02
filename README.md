@@ -57,13 +57,20 @@ The Google Fonts and jQuery CDN resources require an internet connection. The pa
 - Replace the example GitHub and LinkedIn profile URLs in `index.html` with your actual profile URLs.
 - Adjust shared colors, spacing, and responsive rules in `css/style.css`. JavaScript behaviors are in `js/script.js`.
 
-## Upload to GitHub
+## Update the deployed GitHub repository
 
-1. Sign in to GitHub and create a new **public** repository, for example `personal-website`. Do not initialize it with files if you plan to upload this folder as-is.
-2. In VS Code, open the `personal-website` folder. Use Source Control to initialize a repository, stage the project files, and commit them with a message such as `Add personal resume website`.
-3. Add the new GitHub repository as the remote and push the `main` branch. Alternatively, use GitHub's web interface to upload all files while preserving folders.
-4. Confirm that `index.html` is at the root of the repository (the repository root should contain `index.html`, `resume.html`, and `biodata.html`).
+The current repository is `17-gourav/personal-resume-website`. Its published pages currently reference the CSS, JavaScript, and image using relative paths. For the site to render correctly, the matching asset folders must be present beside the HTML pages at the repository root.
 
+1. In the `personal-website` project folder, confirm these files exist: `index.html`, `resume.html`, `biodata.html`, `css/style.css`, `js/script.js`, and `images/profile-placeholder.svg`.
+2. Update the existing repository `17-gourav/personal-resume-website`; do not create a nested `personal-website/` folder in the repository. Put the three HTML files and the `css`, `js`, and `images` folders at the repository root.
+3. If using VS Code with a clone of the existing repository, copy the project contents into that clone, stage the added folders and files, commit, and push to `main`. If using GitHub's web interface, upload the complete folder contents and preserve the folder names and capitalization.
+4. After the deployment finishes, check the live asset URLs below. Each should return successfully before considering styling and the image fixed.
+
+- `https://17-gourav.github.io/personal-resume-website/css/style.css`
+- `https://17-gourav.github.io/personal-resume-website/js/script.js`
+- `https://17-gourav.github.io/personal-resume-website/images/profile-placeholder.svg`
+
+The HTML references are relative: `css/style.css`, `js/script.js`, and `images/profile-placeholder.svg`. Do not add a leading slash. A 404 means the corresponding file or folder is missing from the deployed branch or is nested at the wrong level.
 ## Enable GitHub Pages
 
 1. Open the repository on GitHub and select **Settings**.
@@ -79,7 +86,4 @@ Edit the files locally, save, commit, and push the changes to the same branch. G
 
 ## Hosting status
 
-This project is prepared for GitHub Pages but is **not yet hosted**. It becomes hosted only after you push it to a GitHub repository and enable Pages.
-
-
-
+The site is published at [https://17-gourav.github.io/personal-resume-website/](https://17-gourav.github.io/personal-resume-website/). After every deployment, confirm that the stylesheet, JavaScript, and profile image URLs listed above load successfully before considering the live styling and image fixed.
