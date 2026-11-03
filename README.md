@@ -1,6 +1,6 @@
 # Personal Resume and Bio-data Website
 
-A beginner-friendly, responsive three-page website for the Web Programming Lab assignment. It presents the resume and bio-data of Gourav S Ghorpade using semantic HTML5, CSS3, JavaScript, and jQuery. GitHub Pages can host these static files; the site has not been deployed yet.
+A beginner-friendly, responsive three-page website for the Web Programming Lab assignment. It presents the resume and bio-data of Gourav S Ghorpade using semantic HTML5, CSS3, JavaScript, and jQuery. GitHub Pages can host these static files; it is published on GitHub Pages.
 
 ## Objectives
 
@@ -27,14 +27,14 @@ personal-website/
 ├── js/
 │   └── script.js
 ├── images/
-│   └── profile-placeholder.svg
+│   └── gourav-ghorpade.jpg
 ├── README.md
 └── PROJECT_EXPLANATION.md
 ```
 
 ## Pages and features
 
-- **Home (`index.html`)** — introduction, college and semester, replaceable portrait placeholder, completed courses, hobbies, links to the other pages, editable GitHub/LinkedIn URL examples, and a jQuery show/hide control.
+- **Home (`index.html`)** — introduction, college and semester, portrait photo, completed courses, hobbies, links to the other pages, editable GitHub/LinkedIn URL examples, and a jQuery show/hide control.
 - **Resume (`resume.html`)** — contact and personal information, objective, education table, courses, interests, and explicit placeholders for technical skills, projects, certifications, and strengths. Languages known are listed as Hindi, Kannada, and English. The Print resume button calls the browser print dialog. Print CSS hides navigation and controls and formats the resume for paper/PDF.
 - **Bio-data (`biodata.html`)** — formal personal and academic details, courses, interests, editable missing information, declaration, and place/date/signature fields.
 - Mobile menu, responsive layouts, reduced-motion support, hover states, and subtle scroll reveals.
@@ -53,7 +53,7 @@ The Google Fonts and jQuery CDN resources require an internet connection. The pa
 - Edit the text in `index.html`, `resume.html`, and `biodata.html` directly. Search for the existing value or `[Add ...]` / `[Editable placeholder ...]` marker.
 - Replace the PUC institution placeholder with the actual institution name when ready.
 - Add only skills, certificates, projects, strengths, and other personal details that are true for you. Languages known are currently listed as Hindi, Kannada, and English.
-- Replace `images/profile-placeholder.svg` by adding your photo to `images/` and changing the `<img src>` in `index.html`. For example, if your photo is `images/profile.jpg`, update the source to that path. Use your own appropriately sized portrait.
+- Your profile photo is `images/gourav-ghorpade.jpg`; replace that file to change the photo. Keep the filename or update the `<img src>` in `index.html` to match.
 - Replace the example GitHub and LinkedIn profile URLs in `index.html` with your actual profile URLs.
 - Adjust shared colors, spacing, and responsive rules in `css/style.css`. JavaScript behaviors are in `js/script.js`.
 
@@ -61,16 +61,16 @@ The Google Fonts and jQuery CDN resources require an internet connection. The pa
 
 The current repository is `17-gourav/personal-resume-website`. Its published pages currently reference the CSS, JavaScript, and image using relative paths. For the site to render correctly, the matching asset folders must be present beside the HTML pages at the repository root.
 
-1. In the `personal-website` project folder, confirm these files exist: `index.html`, `resume.html`, `biodata.html`, `css/style.css`, `js/script.js`, and `images/profile-placeholder.svg`.
+1. In the `personal-website` project folder, confirm these files exist: `index.html`, `resume.html`, `biodata.html`, `css/style.css`, `js/script.js`, and `images/gourav-ghorpade.jpg`.
 2. Update the existing repository `17-gourav/personal-resume-website`; do not create a nested `personal-website/` folder in the repository. Put the three HTML files and the `css`, `js`, and `images` folders at the repository root.
 3. If using VS Code with a clone of the existing repository, copy the project contents into that clone, stage the added folders and files, commit, and push to `main`. If using GitHub's web interface, upload the complete folder contents and preserve the folder names and capitalization.
 4. After the deployment finishes, check the live asset URLs below. Each should return successfully before considering styling and the image fixed.
 
 - `https://17-gourav.github.io/personal-resume-website/css/style.css`
 - `https://17-gourav.github.io/personal-resume-website/js/script.js`
-- `https://17-gourav.github.io/personal-resume-website/images/profile-placeholder.svg`
+- `https://17-gourav.github.io/personal-resume-website/images/gourav-ghorpade.jpg`
 
-The HTML references are relative: `css/style.css`, `js/script.js`, and `images/profile-placeholder.svg`. Do not add a leading slash. A 404 means the corresponding file or folder is missing from the deployed branch or is nested at the wrong level.
+The HTML references are relative: `css/style.css`, `js/script.js`, and `images/gourav-ghorpade.jpg`. Do not add a leading slash. A 404 means the corresponding file or folder is missing from the deployed branch or is nested at the wrong level.
 ## Enable GitHub Pages
 
 1. Open the repository on GitHub and select **Settings**.

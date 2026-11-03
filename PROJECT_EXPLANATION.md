@@ -46,7 +46,7 @@ The HTML pages load jQuery 3.7.1 from the jQuery CDN before `js/script.js`. On t
 
 ## 10. Explanation of each webpage
 
-- **Home (`index.html`):** introduces Gourav, gives the college, department, and semester, shows a replaceable SVG profile placeholder, links to other pages and editable social profile URLs, and lists courses and hobbies. The introduction can be shown or hidden.
+- **Home (`index.html`):** introduces Gourav, gives the college, department, and semester, shows a profile portrait photo, links to other pages and editable social profile URLs, and lists courses and hobbies. The introduction can be shown or hidden.
 - **Resume (`resume.html`):** displays contact information, a career objective, an education table, completed courses, hobbies, and clearly marked placeholders for information that has not been supplied. Its Print resume button opens the browser print dialog.
 - **Bio-data (`biodata.html`):** uses a formal document layout for personal and academic details, courses, interests, declaration, place, date, and signature. Missing details remain labeled placeholders.
 
@@ -69,7 +69,7 @@ The site consists of static HTML, CSS, JavaScript, and image files, so it can be
 
 ## 14. Future enhancements
 
-- Replace the profile placeholder and editable social links with personal assets and URLs.
+- The profile photo is stored in `images/gourav-ghorpade.jpg`; replace it to use another portrait. Update the editable social links with personal URLs.
 - Add verified skills, project details, certificates, languages, and other details as they become available.
 - Add a contact form or links to selected academic work.
 - Add a second language or downloadable resume file.
